@@ -1,5 +1,5 @@
 {
-  "expire": true,
+  "expire": false,
   "expiry_message": "⚠️ This tool has expired! Join our Telegram channel for latest version.",
   "telegram_link": "https://t.me/your_channel_here",
   "button_text": "🔥 JOIN NOW 🔥",
