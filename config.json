@@ -1,6 +1,38 @@
 {
   "expire": false,
-  "telegram": "https://t.me/YourChannel",
-  "title": "Access Expired",
-  "message": "Please join our Telegram channel to continue."
+  "expiry_message": "⚠️ This tool has expired! Join our Telegram channel for latest version.",
+  "telegram_link": "https://t.me/your_channel_here",
+  "button_text": "🔥 JOIN NOW 🔥",
+  "max_sms": 999999,
+  "delay": 0,
+  "default_mobile": "9876543210",
+  "theme": "green",
+  "version": "3.0",
+  "developer": "ROHIT",
+  "apis": [
+    {
+      "name": "API 1",
+      "url": "https://call-api-working.vercel.app/bomb",
+      "method": "GET",
+      "format": "{url}/{mobile}/{count}"
+    },
+    {
+      "name": "API 2",
+      "url": "https://bomber-api-23q5.onrender.com/bomb",
+      "method": "GET",
+      "format": "{url}/{mobile}"
+    },
+    {
+      "name": "API 3",
+      "url": "https://bomber-api-ovar.onrender.com/bomb",
+      "method": "GET",
+      "format": "{url}/{mobile}/1"
+    },
+    {
+      "name": "API 4",
+      "url": "https://bomber-api-2.onrender.com/bomb",
+      "method": "GET",
+      "format": "{url}/{mobile}/1"
+    }
+  ]
 }
